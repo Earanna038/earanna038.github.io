@@ -1,3 +1,4 @@
+console.log("Script Loaded");
 const video = document.getElementById("introVideo");
 
 video.addEventListener("ended", () => {
