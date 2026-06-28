@@ -7,6 +7,7 @@ video.addEventListener("ended", () => {
 
     video.style.display = "none";
 
-    document.body.style.overflowY = "auto";
+    document.body.style.overflow = "auto";
+    document.documentElement.style.overflow = "auto";
 
 });
