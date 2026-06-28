@@ -23,7 +23,7 @@ body {
 
     object-fit: cover;
 
-    z-index: 2;
+    z-index: 1;
 
 }
 #introVideo {
@@ -37,6 +37,6 @@ body {
 
     object-fit: cover;
 
-    z-index: 1;
+    z-index: 2;
 
 }
