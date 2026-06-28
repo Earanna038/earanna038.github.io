@@ -2,6 +2,8 @@ const video = document.getElementById("introVideo");
 
 video.addEventListener("ended", () => {
 
+    console.log("Video Ended");
+
     video.style.display = "none";
 
     document.body.style.overflowY = "auto";
